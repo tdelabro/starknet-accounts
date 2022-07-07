@@ -2,7 +2,7 @@
     <img src="resources/img/logo.png">
 </p>
 <div align="center">
-  <h1 align="center">ProjectName</h1>
+  <h1 align="center">StarkNet Accounts</h1>
   <p align="center">
     <a href="https://discord.gg/onlydust">
         <img src="https://img.shields.io/badge/Discord-6666FF?style=for-the-badge&logo=discord&logoColor=white">
@@ -15,7 +15,7 @@
     </a>
   </p>
   
-  <h3 align="center">Project description</h3>
+  <h3 align="center">Custom StarkNet accounts implementations</h3>
 </div>
 
 > ## ⚠️ WARNING! ⚠️
@@ -27,7 +27,11 @@
 
 ## 🎗️ Prerequisites
 
-## 📦 Installation
+## 📦 Compile
+
+```sh
+protostar build --account-contract
+```
 
 ## 🔬 Usage
 
