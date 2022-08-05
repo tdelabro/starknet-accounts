@@ -26,16 +26,20 @@
 ## 🎟️ Description
 
 ## 🎗️ Prerequisites
+Make sure your protostar is up-to-date:
+```sh
+protostar upgrade
+```
 
 ## 📦 Compile
 
 ```sh
-protostar build --account-contract
+protostar build
 ```
 
 ## 🔬 Deploy
 
-First create a signer (public/private key pair).
+First, create a signer (public/private key pair).
 To do so, you can follow these steps:
 
 1. deploy an account with Argent X
@@ -48,6 +52,11 @@ protostar -p testnet deploy ./build/timestamp_based_account.json --inputs <signe
 
 ```sh
 protostar -p testnet deploy ./build/nonce_2d_account.json --inputs <signer-public-key>
+```
+
+or in local:
+```sh
+protostar -p local deploy ./build/nonce_2d_account.json --inputs <signer-public-key>
 ```
 
 ## 🌡️ Testing

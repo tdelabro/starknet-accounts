@@ -10,6 +10,13 @@ cairo_path = ["src", "lib/cairo_contracts/src"]
 [profile.testnet.protostar.deploy]
 network="alpha-goerli"
 
+[profile.local.protostar.deploy]
+gateway_url="http://127.0.0.1:5050/"
+feeder_gateway_url="http://127.0.0.1:5050/"
+network="alpha-goerli"
+network_opt="--network alpha-goerli --gateway_url http://127.0.0.1:5050 --feeder_gateway_url http://127.0.0.1:5050"
+
+
 [profile.mainnet.protostar.deploy]
 network="alpha-mainnet"
 
